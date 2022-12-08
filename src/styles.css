@@ -43,3 +43,26 @@ dd {
   .p-1 {
     padding: 1px;
   }
+
+  .row {
+  
+      display: flex;
+      gap: 2rem;
+
+  }
+
+  .col {
+  
+    flex-grow: 1;
+
+  }
+
+  input {
+  
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: .8rem;
+    width: 50%;
+    
+  }
